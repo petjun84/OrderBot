@@ -19,7 +19,7 @@ Library             RPA.Robocorp.Vault
 
 *** Tasks ***
 Order robots from RobotSpareBin Industries Inc
-    Get and log the value of the vault secrets using the Get Secret keyword
+ #   Get and log the value of the vault secrets using the Get Secret keyword
     ${csv}=    Get CSV URL From user
     Open the robot order website
     ${orders}=    Get orders    ${csv}
